@@ -29,6 +29,7 @@ export default DS.JSONAPIAdapter.extend({
   host: Ember.computed.alias('config.api.host'),
   namespace: Ember.computed.alias('config.api.namespace')
 });
+```
 
 ## Contributing
 
