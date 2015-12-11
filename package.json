@@ -1,7 +1,7 @@
 {
   "name": "ember-config-service",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Access config values from config/environment.js from a simple service",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/gmurphey/ember-config-service",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Garrett Murphey <gmurphey@gmurphey.com>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -40,7 +40,9 @@
     "ember-try": "~0.0.8"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "service",
+    "config"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5",
