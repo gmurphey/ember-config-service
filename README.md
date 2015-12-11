@@ -2,6 +2,8 @@
 
 Easily get values from your app's `config/environment.js` with a service.
 
+[![Build Status](https://travis-ci.org/gmurphey/ember-config-service.svg?branch=master)](https://travis-ci.org/gmurphey/ember-config-service)
+
 ## Usage
 
 Install this addon by running the following with [Ember CLI](http://www.ember-cli.com/).
