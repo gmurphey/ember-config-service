@@ -43,5 +43,11 @@ module.exports = function(environment) {
 
   }
 
+  ENV.testFixtures = {
+    foo: {
+      bar: 'baz'
+    }
+  };
+
   return ENV;
 };
