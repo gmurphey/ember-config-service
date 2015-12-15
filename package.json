@@ -1,6 +1,6 @@
 {
   "name": "ember-config-service",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Access config values from config/environment.js from a simple service",
   "directories": {
     "doc": "doc",
