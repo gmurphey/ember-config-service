@@ -1,15 +1,15 @@
 import Ember from 'ember';
-import getOwner from 'ember-getowner-polyfill';
 
 const {
   Service,
   computed,
-  get
+  get,
+  getOwner
 } = Ember;
 
 export default Service.extend({
   __config__: computed(function() {
-    return getOwner(this)._lookupFactory('config:environment');
+    return getOwner(this).factoryFor('config:environment').class;
   }),
 
   unknownProperty(path) {
