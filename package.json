@@ -35,6 +35,7 @@
     "ember-data": "^2.7.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
+    "ember-factory-for-polyfill": "1.1.1",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
     "loader.js": "^4.0.1"
@@ -45,8 +46,7 @@
     "config"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6",
-    "ember-getowner-polyfill": "^1.0.0"
+    "ember-cli-babel": "^5.1.6"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
