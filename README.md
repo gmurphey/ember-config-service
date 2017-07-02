@@ -1,5 +1,7 @@
 # ember-config-service
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gmurphey/ember-config-service.svg)](https://greenkeeper.io/)
+
 Easily get values from your app's `config/environment.js` with a service.
 
 [![Build Status](https://travis-ci.org/gmurphey/ember-config-service.svg?branch=master)](https://travis-ci.org/gmurphey/ember-config-service) [![Ember Observer Score](http://emberobserver.com/badges/ember-config-service.svg)](http://emberobserver.com/addons/ember-config-service)
