@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^6.3.0",
-    "ember-getowner-polyfill": "1.2.3"
+    "ember-getowner-polyfill": "2.0.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
