@@ -21,7 +21,7 @@
     "postpublish": "git push origin --all; git push origin --tags"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0",
+    "ember-cli-babel": "^6.6.0",
     "ember-getowner-polyfill": "2.0.1"
   },
   "devDependencies": {
@@ -41,6 +41,7 @@
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.2.4",
     "ember-source": "~2.14.0",
+    "eslint-plugin-ember": "^4.0.0",
     "loader.js": "^4.2.3"
   },
   "engines": {

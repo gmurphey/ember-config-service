@@ -1,11 +1,6 @@
-import Ember from 'ember';
-
-const {
-  Service,
-  computed,
-  get,
-  getOwner
-} = Ember;
+import Service from '@ember/service';
+import { computed, get } from '@ember/object';
+import { getOwner } from '@ember/application';
 
 export default Service.extend({
   __config__: computed(function() {
