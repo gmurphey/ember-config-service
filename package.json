@@ -16,9 +16,9 @@
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each",
-    "preversion": "npm test",
+    "preversion": "rm -rf node_modules; npm install; npm test",
     "postversion": "npm publish",
-    "postpublish": "git push origin --all; git push origin --tags"
+    "postpublish": "git push origin $(git branch | grep '*' | sed 's/* //'); git push origin --tags"
   },
   "dependencies": {
     "ember-cli-babel": "^6.3.0",
