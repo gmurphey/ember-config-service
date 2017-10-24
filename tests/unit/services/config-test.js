@@ -1,20 +1,21 @@
-import { moduleFor, test } from 'ember-qunit';
+import { module, test } from 'qunit';
+import { setupTest } from 'ember-qunit';
 import { get } from '@ember/object';
 
-moduleFor('service:config', 'Unit | Service | config', {
-  needs: ['config:environment']
-});
+module('service:config', function(hooks) {
+  setupTest(hooks);
 
-test('it returns values for config paths properly', function(assert) {
-  let service = this.subject();
-  let result = get(service, 'testFixtures.foo.bar');
+  test('it returns values for config paths properly', function(assert) {
+    let service = this.owner.lookup('service:config');
+    let result = get(service, 'testFixtures.foo.bar');
 
-  assert.equal(result, 'baz');
-});
+    assert.equal(result, 'baz');
+  });
 
-test('it returns undefined for non-existent keys', function(assert) {
-  let service = this.subject();
-  let result = get(service, 'missingTestFixtures');
+  test('it returns undefined for non-existent keys', function(assert) {
+    let service = this.owner.lookup('service:config');
+    let result = get(service, 'missingTestFixtures');
 
-  assert.equal(result, undefined);
+    assert.equal(result, undefined);
+  });
 });
