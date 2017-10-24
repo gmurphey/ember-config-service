@@ -3,7 +3,11 @@
   "version": "0.1.6",
   "description": "Access config values from config/environment.js with a simple service",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "config",
+    "configuration",
+    "environment",
+    "service"
   ],
   "license": "MIT",
   "author": "Garrett Murphey <gmurphey@gmurphey.com>",
