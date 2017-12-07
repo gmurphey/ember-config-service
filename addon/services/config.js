@@ -1,13 +1,15 @@
-import Service from '@ember/service';
-import { computed, get } from '@ember/object';
+import ObjectProxy from '@ember/object/proxy';
 import { getOwner } from '@ember/application';
+import { set } from '@ember/object';
 
-export default Service.extend({
-  __config__: computed(function() {
-    return getOwner(this).factoryFor('config:environment').class;
-  }),
-
-  unknownProperty(path) {
-    return get(this, `__config__.${path}`);
+let configService = ObjectProxy.extend({
+  init() {
+    set(this, 'content', getOwner(this).factoryFor('config:environment').class);
   }
 });
+
+configService.reopenClass({
+  isServiceFactory: true
+});
+
+export default configService;
