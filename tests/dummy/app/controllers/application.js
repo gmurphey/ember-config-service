@@ -1,5 +1,10 @@
-import Ember from 'ember';
+import Controller from '@ember/controller';
+import { inject } from '@ember/service';
 
-export default Ember.Controller.extend({
-  config: Ember.inject.service()
+const {
+  service
+} = inject;
+
+export default Controller.extend({
+  config: service()
 });
