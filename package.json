@@ -1,6 +1,6 @@
 {
   "name": "ember-config-service",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "Access config values from config/environment.js with a simple service",
   "keywords": [
     "ember-addon",
