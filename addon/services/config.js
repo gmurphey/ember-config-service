@@ -1,10 +1,10 @@
 import ObjectProxy from '@ember/object/proxy';
 import { getOwner } from '@ember/application';
-import { set } from '@ember/object';
 
 let configService = ObjectProxy.extend({
   init() {
-    set(this, 'content', getOwner(this).factoryFor('config:environment').class);
+    this.content = getOwner(this).factoryFor('config:environment').class;
+    this._super(...arguments);
   }
 });
 
