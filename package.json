@@ -23,7 +23,6 @@
     "start": "ember serve",
     "test": "ember test",
     "test:all": "ember try:each",
-    "postversion": "yarn publish",
     "postpublish": "git push origin $(git branch | grep '*' | sed 's/* //'); git push origin --tags"
   },
   "dependencies": {
