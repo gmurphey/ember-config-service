@@ -44,6 +44,12 @@ Pull requests and issues are welcome!
 * `npm install`
 * `bower install`
 
+### Linting
+
+* `npm run lint:hbs`
+* `npm run lint:js`
+* `npm run lint:js -- --fix`
+
 ### Running
 
 * `ember server`
