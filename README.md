@@ -1,9 +1,14 @@
 # ember-config-service
 
-
-Easily get values from your app's `config/environment.js` with a service.
-
 [![Build Status](https://travis-ci.org/gmurphey/ember-config-service.svg?branch=master)](https://travis-ci.org/gmurphey/ember-config-service) [![Ember Observer Score](http://emberobserver.com/badges/ember-config-service.svg)](http://emberobserver.com/addons/ember-config-service) [![Greenkeeper badge](https://badges.greenkeeper.io/gmurphey/ember-config-service.svg)](https://greenkeeper.io/) [![npm version](https://badge.fury.io/js/ember-config-service.svg)](https://badge.fury.io/js/ember-config-service) [![npm](https://img.shields.io/npm/dm/ember-config-service.svg)](https://img.shields.io/npm/dm/ember-config-service.svg)
+
+Get values from your app's `config/environment.js` with a service.
+
+## Compatibility
+
+* Ember.js v3.4 or above
+* Ember CLI v2.13 or above
+* Node.js v8 or above
 
 ## Usage
 
@@ -36,33 +41,4 @@ export default DS.JSONAPIAdapter.extend({
 
 ## Contributing
 
-Pull requests and issues are welcome!
-
-### Installation
-
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-### Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+See the [Contributing](CONTRIBUTING.md) guide for details.
