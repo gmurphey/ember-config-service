@@ -6,9 +6,9 @@ Get values from your app's `config/environment.js` with a service.
 
 ## Compatibility
 
-* Ember.js v3.4 or above
-* Ember CLI v2.13 or above
-* Node.js v8 or above
+* Ember.js v3.24 or above
+* Ember CLI v3.24 or above
+* Node.js v14 or above
 
 ## Usage
 
